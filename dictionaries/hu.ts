@@ -145,7 +145,7 @@ export const hu = {
     intro:
       "A Samael Consultingot 2020-ban alapították azzal a küldetéssel, hogy segítsen a különböző méretű vállalkozásoknak eligazodni a modern piacok összetettségében és fenntartható növekedést érjenek el.",
     mission:
-      "Küldetésünk, hogy felvértezzük a vállalkozásokat azokkal a stratégiákkal, betekintésekkel és eszközökkel, amelyekre szükségük van a kihívások leküzdéséhez és a  betekintésekkel és eszközökkel, amelyekre szükségük van a kihívások leküzdéséhez és a mai dinamikus üzleti környezetben rejlő lehetőségek kihasználásához.",
+      "Küldetésünk, hogy felvértezzük a vállalkozásokat azokkal a stratégiákkal, betekintésekkel és eszközökkel, amelyekre szükségük van a kihívások leküzdéséhez és a mai dinamikus üzleti környezetben rejlő lehetőségek kihasználásához.",
     vision:
       "Olyan világot képzelünk el, ahol a vállalkozások virágozhatnak a stratégiai döntéshozatal, a működési kiválóság és a piaci kihívásokhoz való innovatív megközelítések révén.",
     imageAlt: "Samael Consulting csapat",

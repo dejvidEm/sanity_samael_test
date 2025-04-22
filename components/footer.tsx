@@ -30,27 +30,8 @@ export default function Footer({ dictionary }: FooterProps) {
             <Image
               src={logo}
               alt="Samael Consulting"
-              width={150}
-              height={50}
-              className="h-24 w-auto mb-4"
+              className="w-48 mb-4"
             />
-            <p className="text-gray-400 mt-4 max-w-xs">
-              Samael Consulting - your trusted partner for business growth and success.
-            </p>
-            <div className="flex space-x-4 mt-6">
-              <a href="#" className="text-gray-400 hover:text-gold-500 transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-gold-500 transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-gold-500 transition-colors">
-                <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-gold-500 transition-colors">
-                <Instagram size={20} />
-              </a>
-            </div>
           </div>
 
           {/* Company */}
@@ -116,10 +97,6 @@ export default function Footer({ dictionary }: FooterProps) {
           <div>
             <h3 className="text-lg font-bold mb-4 text-gold-500">{dictionary.contact}</h3>
             <ul className="space-y-3">
-              <li className="text-gray-400">
-                <span className="block text-sm text-gold-500/80">{dictionary.address}</span>
-                123 Business Ave, Bratislava, Slovakia
-              </li>
               <li className="text-gray-400">
                 <span className="block text-sm text-gold-500/80">{dictionary.phone}</span>
                 +421 950 735 422
