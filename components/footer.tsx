@@ -10,6 +10,7 @@ interface FooterProps {
     links: string
     contact: string
     home: string
+    blog: string
     about: string
     contactUs: string
     address: string
@@ -64,6 +65,11 @@ export default function Footer({ dictionary }: FooterProps) {
               <li>
                 <Link href="#" className="text-gray-400 hover:text-white transition-colors">
                   {dictionary.about}
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                  Blog
                 </Link>
               </li>
               <li>

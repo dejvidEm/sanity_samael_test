@@ -14,6 +14,7 @@ interface NavbarProps {
   dictionary: {
     home: string
     about: string
+    blog: string
     contact: string
   }
   lang: Locale
@@ -88,6 +89,9 @@ export default function Navbar({ dictionary, lang }: NavbarProps) {
           <Link href={`/${lang}/about`} className="text-gray-700 hover:text-navy-900 font-medium transition-colors">
             {dictionary.about}
           </Link>
+          <Link href={`/${lang}/blog`} className="text-gray-700 hover:text-navy-900 font-medium transition-colors">
+            {dictionary.blog}
+          </Link>
           <Link href={`/${lang}/contact`} className="text-gray-700 hover:text-navy-900 font-medium transition-colors">
             {dictionary.contact}
           </Link>
@@ -125,6 +129,13 @@ export default function Navbar({ dictionary, lang }: NavbarProps) {
               onClick={() => setIsMenuOpen(false)}
             >
               {dictionary.about}
+            </Link>
+            <Link
+              href={`/${lang}/blog`}
+              className="text-gray-700 hover:text-navy-900 font-medium py-2 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {dictionary.blog}
             </Link>
             <Link
               href={`/${lang}/contact`}

@@ -2,7 +2,13 @@ export const sk = {
   navigation: {
     home: "Domov",
     about: "O nás",
+    blog: "Blog",
     contact: "Kontakt",
+  },
+  blog: {
+    title: "Náš Blog",
+    description: "Články a novinky zo sveta podnikania.",
+    backToBlog: "Späť na blog"
   },
   home: {
     hero: {
@@ -243,6 +249,7 @@ export const sk = {
     contact: "Kontakt",
     home: "Domov",
     about: "O nás",
+    blog: "Blog",
     contactUs: "Kontaktujte nás",
     address: "Adresa",
     phone: "Telefón",

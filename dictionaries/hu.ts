@@ -2,7 +2,13 @@ export const hu = {
   navigation: {
     home: "Főoldal",
     about: "Rólunk",
+    blog: "Blog",
     contact: "Kapcsolat",
+  },
+  blog: {
+    title: "Blogunk",
+    description: "Cikkek és hírek az üzleti világból.",
+    backToBlog: "Vissza a bloghoz"
   },
   home: {
     hero: {
@@ -244,6 +250,7 @@ export const hu = {
     contact: "Kapcsolat",
     home: "Főoldal",
     about: "Rólunk",
+    blog: "Blog",
     contactUs: "Kapcsolat",
     address: "Cím",
     phone: "Telefon",

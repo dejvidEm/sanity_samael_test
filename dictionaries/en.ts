@@ -2,7 +2,13 @@ export const en = {
   navigation: {
     home: "Home",
     about: "About Us",
+    blog: "Blog",
     contact: "Contact",
+  },
+  blog: {
+    title: "Our Blog",
+    description: "Articles and news from the world of business.",
+    backToBlog: "Back to blog"
   },
   home: {
     hero: {
@@ -243,6 +249,7 @@ export const en = {
     contact: "Contact",
     home: "Home",
     about: "About Us",
+    blog: "Blog",
     contactUs: "Contact Us",
     address: "Address",
     phone: "Phone",
